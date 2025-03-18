@@ -10,7 +10,7 @@ GuitarLA es una tienda en línea especializada en la venta de guitarras, ofrecie
 
 &nbsp;&nbsp;✅ Guardar el estado del carrito utilizando LocalStorage.
 
-### ✨ Características
+## ✨ Características
 
 🔹 Catálogo interactivo con imágenes y descripciones detalladas.
 
