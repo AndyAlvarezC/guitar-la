@@ -1,52 +1,52 @@
-# **🎸 GuitarLA - Tienda de Guitarras**
+# **🎸 GuitarLA - Guitar Store**
 
-[**🌐 Visita el sitio web**](https://spectacular-speculoos-f61721.netlify.app/)
+[**🌐 Visit the website**](https://spectacular-speculoos-f61721.netlify.app/)
 
-GuitarLA es una tienda en línea especializada en la venta de guitarras, ofreciendo una experiencia de compra fluida y optimizada. La web permite a los usuarios:
+GuitarLA is an online store specializing in guitar sales, offering a smooth and optimized shopping experience. The website allows users to:
 
-&nbsp;&nbsp;✅ Explorar una colección de guitarras con imágenes y descripciones detalladas.
+&nbsp;&nbsp;✅ Explore a collection of guitars with detailed images and descriptions.
 
-&nbsp;&nbsp;✅ Agregar productos al carrito y gestionar sus compras de manera sencilla e intuitiva.
+&nbsp;&nbsp;✅ Add products to the cart and manage their purchases easily and intuitively.
 
-&nbsp;&nbsp;✅ Guardar el estado del carrito utilizando LocalStorage.
+&nbsp;&nbsp;✅ Save the cart state using LocalStorage.
 
-## ✨ Características
+## ✨ Features
 
-🔹 Catálogo interactivo con imágenes y descripciones detalladas.
+🔹 Interactive catalog with detailed images and descriptions.
 
-🔹 Carrito de compras dinámico con actualización en tiempo real.
+🔹 Dynamic shopping cart with real-time updates.
 
-🔹 Gestión de cantidades: aumentar, disminuir o eliminar productos.
+🔹 Quantity management: increase, decrease, or remove products.
 
-🔹 Botón para vaciar el carrito completamente.
+🔹 Button to completely empty the cart.
 
-🔹 Diseño responsive adaptable a distintos dispositivos.
+🔹 Responsive design adaptable to different devices.
 
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 &nbsp;&nbsp;⚛️ React.js
 
 &nbsp;&nbsp;🎨 Bootstrap
 
-&nbsp;&nbsp;💾 LocalStorage para persistencia de datos
+&nbsp;&nbsp;💾 LocalStorage for data persistence
 
-&nbsp;&nbsp;🚀 Netlify para despliegue
+&nbsp;&nbsp;🚀 Netlify for deployment
 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-## 📌 Instalación y Uso
+## 📌 Installation and Usage
 
 
-&nbsp;&nbsp;**Clona el repositorio:**
+&nbsp;&nbsp;**Clone the repository:**
 
     git clone https://github.com/tuusuario/guitarla.git
 
-&nbsp;&nbsp;**Accede al directorio:**
+&nbsp;&nbsp;**Navigate to the directory:**
 
     cd guitarla
 
-&nbsp;&nbsp;**Instala las dependencias:**
+&nbsp;&nbsp;**Start the project in development mode:**
 
     npm install
 
@@ -54,4 +54,4 @@ ________________________________________________________________________________
 
     npm run dev
 
-&nbsp;&nbsp;**Abre en tu navegador: http://localhost:5173**
+&nbsp;&nbsp;**Open in your browser: http://localhost:5173**
