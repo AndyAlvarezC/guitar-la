@@ -1,48 +1,57 @@
-🎸 GuitarLA - Tienda de Guitarras
+# **🎸 GuitarLA - Tienda de Guitarras**
 
-🌐 Visita el sitio web
-🔗 GuitarLA
+[**🌐 Visita el sitio web**](https://spectacular-speculoos-f61721.netlify.app/)
 
 GuitarLA es una tienda en línea especializada en la venta de guitarras, ofreciendo una experiencia de compra fluida y optimizada. La web permite a los usuarios:
 
-✅ Explorar una colección de guitarras con imágenes y descripciones detalladas.
-✅ Agregar productos al carrito y gestionar sus compras de manera sencilla e intuitiva.
-✅ Guardar el estado del carrito utilizando LocalStorage.
+&nbsp;&nbsp;✅ Explorar una colección de guitarras con imágenes y descripciones detalladas.
 
-✨ Características
+&nbsp;&nbsp;✅ Agregar productos al carrito y gestionar sus compras de manera sencilla e intuitiva.
+
+&nbsp;&nbsp;✅ Guardar el estado del carrito utilizando LocalStorage.
+
+### ✨ Características
 
 🔹 Catálogo interactivo con imágenes y descripciones detalladas.
+
 🔹 Carrito de compras dinámico con actualización en tiempo real.
+
 🔹 Gestión de cantidades: aumentar, disminuir o eliminar productos.
+
 🔹 Botón para vaciar el carrito completamente.
+
 🔹 Diseño responsive adaptable a distintos dispositivos.
 
-🛠️ Tecnologías Utilizadas
 
-⚛️ React.js
+## 🛠️ Tecnologías Utilizadas
 
-🎨 Bootstrap
+&nbsp;&nbsp;⚛️ React.js
 
-💾 LocalStorage para persistencia de datos
+&nbsp;&nbsp;🎨 Bootstrap
 
-🚀 Netlify para despliegue
+&nbsp;&nbsp;💾 LocalStorage para persistencia de datos
 
-📌 Instalación y Uso
+&nbsp;&nbsp;🚀 Netlify para despliegue
 
-Clona el repositorio:
+______________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-git clone https://github.com/tuusuario/guitarla.git
+## 📌 Instalación y Uso
 
-Accede al directorio:
 
-cd guitarla
+&nbsp;&nbsp;**Clona el repositorio:**
 
-Instala las dependencias:
+    git clone https://github.com/tuusuario/guitarla.git
 
-npm install
+&nbsp;&nbsp;**Accede al directorio:**
 
-Inicia el proyecto en modo desarrollo:
+    cd guitarla
 
-npm run dev
+&nbsp;&nbsp;**Instala las dependencias:**
 
-Abre en tu navegador: http://localhost:5173
+    npm install
+
+&nbsp;&nbsp;**Inicia el proyecto en modo desarrollo:**
+
+    npm run dev
+
+&nbsp;&nbsp;**Abre en tu navegador: http://localhost:5173**
