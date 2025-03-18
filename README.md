@@ -50,7 +50,7 @@ ________________________________________________________________________________
 
     npm install
 
-&nbsp;&nbsp;**Inicia el proyecto en modo desarrollo:**
+&nbsp;&nbsp;**Start the project in development mode:**
 
     npm run dev
 
