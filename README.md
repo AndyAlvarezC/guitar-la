@@ -33,10 +33,10 @@ ________________________________________________________________________________
 ## Instalation and Usage
 
 &nbsp;&nbsp;&nbsp;**Clone the repository**
-<pre>https://github.com/AndyAlvarezC/GuitarLa.git</pre>
+<pre>git clone https://github.com/AndyAlvarezC/GuitarLa.git</pre>
 
 &nbsp;&nbsp;&nbsp;**Navigate to the directory:**
-<pre>cd guitarla</pre>
+<pre>cd GuitarLa</pre>
     
 &nbsp;&nbsp;&nbsp;**Install dependencies:**
 <pre>npm install</pre>
