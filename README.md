@@ -1,57 +1,54 @@
-# **🎸 GuitarLA - Guitar Store**
+# React + TypeScript + Vite
 
-[**🌐 Visit the website**](https://spectacular-speculoos-f61721.netlify.app/)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-GuitarLA is an online store specializing in guitar sales, offering a smooth and optimized shopping experience. The website allows users to:
+Currently, two official plugins are available:
 
-&nbsp;&nbsp;✅ Explore a collection of guitars with detailed images and descriptions.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-&nbsp;&nbsp;✅ Add products to the cart and manage their purchases easily and intuitively.
+## Expanding the ESLint configuration
 
-&nbsp;&nbsp;✅ Save the cart state using LocalStorage.
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-## ✨ Features
+```js
+export default tseslint.config({
+  extends: [
+    // Remove ...tseslint.configs.recommended and replace with this
+    ...tseslint.configs.recommendedTypeChecked,
+    // Alternatively, use this for stricter rules
+    ...tseslint.configs.strictTypeChecked,
+    // Optionally, add this for stylistic rules
+    ...tseslint.configs.stylisticTypeChecked,
+  ],
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ['./tsconfig.node.json', './tsconfig.app.json'],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+})
+```
 
-🔹 Interactive catalog with detailed images and descriptions.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-🔹 Dynamic shopping cart with real-time updates.
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-🔹 Quantity management: increase, decrease, or remove products.
-
-🔹 Button to completely empty the cart.
-
-🔹 Responsive design adaptable to different devices.
-
-
-## 🛠️ Technologies Used
-
-&nbsp;&nbsp;⚛️ React.js
-
-&nbsp;&nbsp;🎨 Bootstrap
-
-&nbsp;&nbsp;💾 LocalStorage for data persistence
-
-&nbsp;&nbsp;🚀 Netlify for deployment
-
-______________________________________________________________________________________________________________________________________________________________________________________________________________________
-
-## 📌 Installation and Usage
-
-
-&nbsp;&nbsp;**Clone the repository:**
-
-    git clone https://github.com/tuusuario/guitarla.git
-
-&nbsp;&nbsp;**Navigate to the directory:**
-
-    cd guitarla
-
-&nbsp;&nbsp;**Start the project in development mode:**
-
-    npm install
-
-&nbsp;&nbsp;**Start the project in development mode:**
-
-    npm run dev
-
-&nbsp;&nbsp;**Open in your browser: http://localhost:5173**
+export default tseslint.config({
+  plugins: {
+    // Add the react-x and react-dom plugins
+    'react-x': reactX,
+    'react-dom': reactDom,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended typescript rules
+    ...reactX.configs['recommended-typescript'].rules,
+    ...reactDom.configs.recommended.rules,
+  },
+})
+```
