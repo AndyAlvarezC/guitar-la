@@ -1,6 +1,6 @@
 # **🎸 GuitarLA - Guitar Store (React + TypeScript)**
 
-[**🌐 Visit the Website**](https://chipper-baklava-3e6c68.netlify.app/)
+[**🌐 Visit the Website**](https://shopguitarla.netlify.app/)
 
 GuitarLA is an online store specializing in guitar sales, offering a smooth and optimized shopping experience. The website allows users to:
 
