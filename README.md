@@ -1,6 +1,6 @@
 # **🎸 GuitarLA - Guitar Store (React + TypeScript)**
 
-[**🌐 Visit the Website**](https://shopguitarla.netlify.app/)
+[**🌐 Visit the Website**](https://guitar-la-shop.vercel.app/)
 
 GuitarLA is an online store specializing in guitar sales, offering a smooth and optimized shopping experience. The website allows users to:
 
@@ -33,7 +33,7 @@ ________________________________________________________________________________
 ## Instalation and Usage
 
 &nbsp;&nbsp;&nbsp;**Clone the repository**
-<pre>git clone https://github.com/AndyAlvarezC/GuitarLa.git</pre>
+<pre>https://github.com/AndyAlvarezC/guitar-la.git</pre>
 
 &nbsp;&nbsp;&nbsp;**Navigate to the directory:**
 <pre>cd GuitarLa</pre>
